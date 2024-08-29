@@ -1,0 +1,152 @@
+ul {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #1f2937;
+    
+}
+
+#nav_bar {
+
+  background-color: #1f2937;
+  height: 100%;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.logo {
+    flex-grow: 0.5;
+}
+
+h2 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.top_sec {
+    display: flex;
+    
+    align-content: space-between;
+    justify-content: center;
+    gap: 800px;
+    background-color: #1f2937;
+    width: 100%;
+    
+}
+
+.top {
+  color: #f9faf8;
+
+}
+
+.summary {
+    flex-basis: 350px;
+    
+}
+
+.mid_sec {
+        height: 300px;
+        padding: 16px;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        width: 100%;
+}
+
+.bottom_sec {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  gap: 800px;
+  background: #e5e7eb;
+  font-size: 36px;
+  font-style: light italic;
+  width: 100%;
+  
+}
+
+.last_sec {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 600px;
+  background: #3882f6;
+  border-radius: 5px;
+  margin-left: 650px;
+ 
+}
+
+.summary_last {
+  width: 300px;
+  height: 60px;
+  margin: auto;
+
+}
+
+.button {
+ 
+ margin: auto;
+ background-color: #3882f6;
+ color: #f9faf8;
+ width: 100px;
+ height: 30px;
+ border-radius: 4px;
+ border: solid 2px;
+ border-color: #3882f6;
+
+}
+
+.button2 {
+ 
+  margin: auto;
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  border: solid 2px;
+  border-color: #f9faf8;
+ 
+ }
+  
+
+
+.item {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    background: skyblue;
+    border-radius: 6px;
+    gap: 20px;
+    
+  }
+
+  .mid_sec img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .top_sec img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .lone {
+
+    text-align: center;
+  }
+
+  .brand_logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  
+  
